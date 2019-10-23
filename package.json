@@ -4,6 +4,7 @@
   "description": "PostgreSQL &amp; Nodejs REST API, Sequelize, Babel",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon src/index.js --exec babel-node",
     "build": "./node_modules/.bin/babel src --out-dir dist",
     "start": "node dist/index.js"
   },
@@ -20,6 +21,7 @@
   "homepage": "https://github.com/FernandoMendozaE/node-postgresql-api#readme",
   "dependencies": {
     "@babel/polyfill": "^7.6.0",
+    "core-js": "^2.6.10",
     "express": "^4.17.1",
     "morgan": "^1.9.1",
     "pg": "^7.12.1",
@@ -29,6 +31,8 @@
   "devDependencies": {
     "@babel/cli": "^7.6.2",
     "@babel/core": "^7.6.2",
-    "@babel/preset-env": "^7.6.2"
+    "@babel/node": "^7.6.3",
+    "@babel/preset-env": "^7.6.2",
+    "nodemon": "^1.19.4"
   }
 }
