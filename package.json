@@ -22,7 +22,7 @@
   "dependencies": {
     "@babel/polyfill": "^7.6.0",
     "core-js": "^2.6.10",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "morgan": "^1.9.1",
     "pg": "^7.12.1",
     "pg-hstore": "^2.3.3",
